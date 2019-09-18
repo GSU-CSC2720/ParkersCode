@@ -14,6 +14,8 @@ public class SortDriver {
         int trials;
         Integer data[];
         
+        /* why yesssss */
+        
         //CREATE THE INSTANCE OF THE INSTRUMENTED SORT CLASS HERE
         
         SortArrayInstrumented s = new SortArrayInstrumented();
@@ -45,7 +47,7 @@ public class SortDriver {
      * @param   size    The size of the array to generate.
      * @return  The array of integers. 
      */
-    private static Integer[] generateRandomArray(int size)
+    private static Integer[] generateRandomArray(int size) 
     {
         Integer result[] = new Integer[size];
         Random generator = new Random();
